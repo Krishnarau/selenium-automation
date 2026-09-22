@@ -1,0 +1,8 @@
+target/
+test-output/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+src/test/resources/config.properties
