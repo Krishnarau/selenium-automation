@@ -28,7 +28,7 @@ pipeline {
 
     post {
         always {
-            echo 'Jenkins pipeline execution completed'
+            junit 'target/surefire-reports/*.xml'
         }
     }
 }
